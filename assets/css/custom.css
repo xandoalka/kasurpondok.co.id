@@ -1,13 +1,51 @@
+img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
 .card-service-item{
    min-height: 20rem;
 }
 .card-service-detail{
-   min-height: 62rem;
+   min-height: 64fgallrem;
    margin-bottom: 2rem;
 }
 .card-service-detail img{
-   width: 100%;
-   height: 100%;
+   width: 28rem;
+}
+.mt-8{
+   margin-top: 8rem;
+}
+.h-minicard{
+   min-height: 16rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.h-minicard .image{
+   height: 6rem;
+}
+.-mt-8{
+   margin-top: -8rem;
+}
+.mt-6{
+   margin-top: 6rem;
+}
+.gallery .section-heading{
+   text-align: center;
+}
+.gallery .image{
+   width: 25%;
+   height: 16rem;
+}
+.main-button i{
+   font-size: 1.5rem;
+}
+.main-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
 }
 @media screen and (max-width: 768px) {
    .logo{
@@ -27,5 +65,9 @@
    }
    .header-area .main-nav .logo .logo-title{
       display: none;
+   }
+   .gallery .image{
+      width: 100%;
+      height: 24rem;
    }
 }

@@ -1676,7 +1676,6 @@ footer #search button:hover {
 
 .footer-widget ul {
   display: inline;
-  max-width: 40%;
   float: left;
   margin-right: 10%;
 }
@@ -2244,6 +2243,7 @@ responsive
   }
 }
 #modal_trigger{
-      color: #fff600 !important;
-    text-shadow: 1px 1px 1px black;
+      color: white !important;
+      display: flex;
+      gap: 2px;
 }
