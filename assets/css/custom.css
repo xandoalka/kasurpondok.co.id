@@ -1,0 +1,31 @@
+.card-service-item{
+   min-height: 20rem;
+}
+.card-service-detail{
+   min-height: 62rem;
+   margin-bottom: 2rem;
+}
+.card-service-detail img{
+   width: 100%;
+   height: 100%;
+}
+@media screen and (max-width: 768px) {
+   .logo{
+      display: flex;
+      margin-block: auto;
+   }
+   .logo-img img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+   .logo-img{
+      display: flex;
+      width: 3rem;
+      height: 3rem;
+   }
+   .header-area .main-nav .logo .logo-title{
+      display: none;
+   }
+}
